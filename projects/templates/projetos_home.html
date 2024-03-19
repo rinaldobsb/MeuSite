@@ -1,0 +1,26 @@
+{% extends '_base_projects.html' %}
+
+{% block content %}
+{% include 'header_projects.html' %}
+<section class="w3-container">
+    <div class="w3-content w3-row">
+        <!--Item do Layout-->
+        <div class="w3-quarter w3-hide-small w3-container">&nbsp;</div>
+        <!--Conteúdo-->
+        <div class="w3-half w3-container">
+
+            <!--Projetos-->
+            {% include 'projetos_card.html' %}
+
+        </div>
+        <!--Item do Layout-->
+        <div class="w3-quarter w3-hide-small w3-container">&nbsp;</div>
+    </div>
+</section>
+{% endblock %}
+{% block footer %}
+<p>
+    Entre em contato comigo no e-mail: <a href="{{ dados['link_email']|e }}">{{ dados['email'] }}</a>
+</p>
+<p>{{ dados['msg_footer'] }}</p>
+{% endblock %}

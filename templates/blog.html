@@ -1,0 +1,20 @@
+<div class="w3-block w3-container">
+    <h2 class="w3-xlarge"><i>Blog</i></h2>
+
+    {% for post in posts %}
+    <div class="w3-card w3-justify w3-hover-blue-grey w3-round">
+        <i class="bi bi-substack w3-left w3-margin-right w3-xlarge"></i>
+        <a href="{{ url_for('blog.one_post', id=post.id) }}" class=""
+            onmouseout="this.attributes.class.value = 'w3-animate-opacity'"
+            onmouseenter="this.attributes.class.value = ''">
+            <h3 class="w3-large">{{ post.titulo_post }}</h3>
+        </a>
+        <p>Em {{ post.data|transforma_data }}:</p>
+        <p class="w3-padding">{{ post.resumo_post }}</p>
+    </div>
+    {% endfor %}
+
+    <a href="{{ url_for('blog.all_posts') }}" class="w3-right">
+        <p>Veja mais...</p>
+    </a>
+</div>

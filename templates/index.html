@@ -1,0 +1,32 @@
+{% extends '_base.html' %}
+
+{% block content %}
+{% include 'header.html' %}
+<section class="w3-container">
+    <div class="w3-row w3-container">
+        <!--Item do Layout-->
+        <div class="w3-quarter w3-hide-small w3-container">&nbsp;</div>
+        <!--Conteúdo-->
+        <div class="w3-half w3-container">
+            <!--Frontspício-->
+            {% include 'frontspicio.html' %}
+            <!--Autodescrição-->
+            {% include 'autodescricao.html' %}
+            <!--Comunidades e Links-->
+            <!-- {% include 'comunidades.html' %} -->
+            <!--Projetos-->
+            {% include 'projetos.html' %}
+            <!--Últimos posts do Blog-->
+            {% include 'blog.html' %}
+        </div>
+        <!--Item do Layout-->
+        <div class="w3-quarter w3-hide-small w3-container">&nbsp;</div>
+    </div>
+</section>
+{% endblock %}
+{% block footer %}
+<p>
+    Entre em contato comigo no e-mail: <a href="{{ dados['link_email']|e }}">{{ dados['email'] }}</a>
+</p>
+<p>{{ dados['msg_footer'] }}</p>
+{% endblock %}

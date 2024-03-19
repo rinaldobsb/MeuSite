@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "meusitedefinitivo"
+version = "0.1.0"
+description = "Este é meu site definitivo, feito com Flask"
+authors = ["Rinaldo <rinaldomm@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

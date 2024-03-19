@@ -1,0 +1,14 @@
+<div class="w3-block w3-justify">
+    <img src="/static/img/perfil.png" alt="foto do meu perfil" class="w3-left w3-circle w3-margin-right"
+        style="width:80px">
+    <h1 class="w3-xlarge w3-justify"><b>{{ dados['nome'] }}</b></h1>
+    <p><i>{{ dados['habilidade'] }}</i></p>
+    <!--Redes sociais-->
+    <div class="w3-center">
+        <a href="http://{{ dados['github']|e }}"><i
+                class="bi bi-github w3-xxlarge w3-hover-text-blue-grey remexe"></i></a>
+        <a href="http://{{ dados['instagram']|e }}"><i
+                class="bi bi-instagram w3-xxlarge w3-hover-text-blue-grey remexe"></i></a>
+
+    </div>
+</div>

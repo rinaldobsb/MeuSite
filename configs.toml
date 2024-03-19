@@ -1,0 +1,19 @@
+[home]
+nome = "Rinaldo Moreira Magalhães"
+habilidade = "Desenvolvedor Web Python"
+github = "www.github.com/rinaldobsb"
+instagram = "www.instagram.com/rinaldobsb"
+quem_sou_eu = "Sou desenvolvedor freelancer. Programo em python para Inteligência Artificial e para a Web. Tenho vários projetos de software feitos. Vamos dar uma olhada?"
+email = "rinaldomm@outlook.com"
+link_email = "mailto:rinaldomm@outlook.com"
+msg_footer = "BUILDING SOFTWARE WITH ♥ FROM BRASILIA TO THE WORLD."
+
+[projetos]
+email = "rinaldomm@outlook.com"
+link_email = "mailto:rinaldomm@outlook.com"
+msg_footer = "BUILDING SOFTWARE WITH ♥ FROM BRASILIA TO THE WORLD."
+
+[blog]
+email = "rinaldomm@outlook.com"
+link_email = "mailto:rinaldomm@outlook.com"
+msg_footer = "BUILDING SOFTWARE WITH ♥ FROM BRASILIA TO THE WORLD."

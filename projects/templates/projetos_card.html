@@ -1,0 +1,14 @@
+<div class="w3-block w3-center w3-container">
+    <h2 class="w3-xlarge w3-padding-24"><i>Portifólio de Projetos</i></h2>
+    <!--Projetos-->
+    {% for project in projects %}
+    <div class="w3-card w3-justify w3-round w3-hover-blue-grey">
+        <i class="bi bi-bookmark w3-left w3-margin-right w3-xlarge"></i>
+        <a href="https://{{ project.link|e }}" class="" onmousemove="this.style.property = 'w3-animate-opacity'">
+            <h3 class="w3-large">{{ project.nome_projeto }}</h3>
+        </a>
+        <p class="w3-padding">{{ project.descricao_projeto }}</p>
+    </div>
+    {% endfor %}
+
+</div>

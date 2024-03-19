@@ -1,0 +1,43 @@
+.texto-blog {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.texto-cards {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.texto-projetos {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.texto-título {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.junge-regular {
+    font-family: "Junge", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@keyframes pulso {
+    0%   {scale: 1;}
+    50%  {scale: 1.15;}
+    100% {scale: 1;}
+  }
+
+.remexe:hover {
+    animation-name: pulso;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}

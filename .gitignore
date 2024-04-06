@@ -1,2 +1,6 @@
 .venv/
 .python-version
+markdown_posts/
+config.toml
+meusite.db
+.python-version

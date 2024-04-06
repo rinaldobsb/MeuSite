@@ -4,8 +4,8 @@
         <h2 class="w3-xxlarge w3-center">{{post.titulo_post}}</h2>
         <p> Em {{post.data|transforma_data}}:</p>
     </head>
-    <article class="w3-padding-24">
-        <p class="w3-justify w3-large">{{post.texto_post}}</p>
+    <article class="w3-padding-24 w3-justify w3-large">
+        {{post.texto_post|markdown|safe}}
     </article>
     <footer class="w3-container">
         <p class="w3-right-align">Por Rinaldo Magalhães</p>

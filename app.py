@@ -1,7 +1,8 @@
 from datetime import date
 from typing import Dict
 
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, url_for, render_template_string
+import markdown
 
 from blog.blog import blog_app
 from data import dados_do_site
@@ -14,6 +15,11 @@ app = Flask(__name__)
 def transforma_data(isoformat):
     obj_data = date.fromisoformat(isoformat)
     return obj_data.strftime("%d/%m/%Y")
+
+@app.template_filter("markdown")
+def markdown_to_html(markdown_string):
+    html = markdown.markdown(markdown_string)
+    return html
 
 @app.route('/')
 def index():

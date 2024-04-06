@@ -9,6 +9,7 @@ license = "MIT"
 python = "^3.11"
 flask = "^3.0.2"
 gunicorn = "^21.2.0"
+markdown = "^3.6"
 
 [build-system]
 requires = ["poetry-core"]

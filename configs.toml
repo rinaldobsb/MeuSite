@@ -1,19 +1,19 @@
 [home]
-nome = "Rinaldo Moreira Magalhães"
-habilidade = "Desenvolvedor Web Python"
+nome = "Rinaldo Magalhães"
+habilidade = "Desenvolvedor Python"
 github = "www.github.com/rinaldobsb"
-instagram = "www.instagram.com/rinaldobsb"
-quem_sou_eu = "Sou desenvolvedor freelancer. Programo em python para Inteligência Artificial e para a Web. Tenho vários projetos de software feitos. Vamos dar uma olhada?"
-email = "rinaldomm@outlook.com"
-link_email = "mailto:rinaldomm@outlook.com"
+instagram = "www.instagram.com/rinaldo_dev"
+quem_sou_eu = "Sou desenvolvedor freelancer. Programo na linguagem Python para Inteligência Artificial e para a Web. Tenho alguns projetos de software feitos. Neste site escrevo algumas coisas e deixo alguns projetos para portifólio."
+email = "falecomigo@rinaldo.dev.br"
+link_email = "mailto:falecomigo@rinaldo.dev.br"
 msg_footer = "BUILDING SOFTWARE WITH ♥ FROM BRASILIA TO THE WORLD."
 
 [projetos]
-email = "rinaldomm@outlook.com"
-link_email = "mailto:rinaldomm@outlook.com"
+email = "falecomigo@rinaldo.dev.br"
+link_email = "mailto:falecomigo@rinaldo.dev.br"
 msg_footer = "BUILDING SOFTWARE WITH ♥ FROM BRASILIA TO THE WORLD."
 
 [blog]
-email = "rinaldomm@outlook.com"
-link_email = "mailto:rinaldomm@outlook.com"
+email = "falecomigo@rinaldo.dev.br"
+link_email = "mailto:falecomigo@rinaldo.dev.br"
 msg_footer = "BUILDING SOFTWARE WITH ♥ FROM BRASILIA TO THE WORLD."

@@ -4,3 +4,6 @@ markdown_posts/
 config.toml
 meusite.db
 .python-version
+__pycache__/
+.gitignore
+.mypy_cache/
